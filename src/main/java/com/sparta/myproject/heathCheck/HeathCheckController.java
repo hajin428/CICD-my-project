@@ -35,7 +35,6 @@ public class HeathCheckController {
         responeseData.put("serverPort",serverPort);
         responeseData.put("env",env);
 
-        System.out.println("Hello World");
         return ResponseEntity.ok(responeseData);
     }
 
